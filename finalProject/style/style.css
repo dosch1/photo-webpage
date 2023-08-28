@@ -1,0 +1,230 @@
+.backImg{
+  height: 100%;
+  background-image: url("../images/pond.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.backImgCap{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width:100%;
+  text-align: center;
+  color: #818181;
+}
+
+.backImgCap span.border{
+  background-color: #333;
+  color: #818181;
+  padding: 18px;
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+.border{
+  font: 400 15px/1.8 "Georgia", serif;
+  height: 100%;
+  margin: 0;
+}
+
+.backColor{
+  background-color: #d9e6f2;
+}
+
+ 
+table, th, td{
+  border: 1px solid black;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+th, td{
+  text-align: center;
+  font-family: "Veranda", sans serif;
+}
+
+.videos{
+  width:450px;
+  height:350px;
+  position:relative;
+  float:right;
+  margin-right:50px;
+}
+
+div p{
+  text-align:left;
+}
+
+figcaption{
+  font-size:10px;
+  font-family: "Veranda", sans serif;
+}
+
+.history{
+  border: medium solid;
+  margin: 25px 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#historyp{
+  text-indent:40px;
+}
+
+.photographers{
+  border: medium solid;
+  width: 900px;
+  height: 250px;
+  margin: 25px 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#photographerName{
+  text-align: justify;
+}
+
+#photographerImg{
+  float:left;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 150px;
+  width: 150px;
+}
+
+#photographerLink:link{
+  color: blue;
+}
+
+#photographerLink:visited{
+  color: darkcyan;
+}
+
+p{
+ font-family: "Veranda", sans serif;
+}
+
+h1, h3, h4{
+  font-family: "Georgia", serif;
+}
+
+ol li{
+  font-family: "Veranda", sans serif;
+}
+
+ul li{
+  font-family: "Veranda", sans serif;
+}
+
+.gallery{
+  position:relative;
+  width:600px;
+  padding-left:300px;
+}
+
+.mySlides{
+  display: block;
+  width:600px;
+  height:400px;
+}
+
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px; 
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertxt{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container{
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.vintageCamera{
+  float: right;
+  position: relative;
+  width:250px;
+  height:250px;
+}
+
+img.gallerySize{
+  max-width: 100%;
+  max-height:100%;
+  object-fit: contain;
+} 
+
+.navigation{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left:0;
+  background-color: #333;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top:60px;
+}
+
+.navigation a{
+  padding: 8px 8px 8px 32px;
+  text-decoration:none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+.navigation a:hover{
+  color: #f1f1f1;
+}
+
+.navigation .closebtn{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px){
+  .navigation {padding-top: 15px;}
+  .navigation a {font-size: 18px;}
+}
+
+#openbtn{
+  color: #818181;
+  font-size:30px;
+  cursor:pointer;
+}

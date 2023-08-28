@@ -1,0 +1,179 @@
+#navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#backimage{
+  position:relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-image: url("images/not_found.png");
+  opacity: 0.95;
+}
+
+#intro{
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+table, th, td{
+  border: 1px solid black;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+th, td{
+  text-align: center;
+}
+
+.videos{
+  width:450px;
+  height:350px;
+  position:relative;
+  float:right;
+  margin-right:50px;
+}
+
+div p{
+  text-align:left;
+}
+
+.history{
+  border: medium solid;
+  margin: 25px 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#hp{
+  text-indent:40px;
+}
+
+.photographers{
+  border: medium solid;
+  width: 900px;
+  height: 250px;
+  margin: 25px 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+figcaption{
+  font-size:10px;
+}
+
+#pp{
+  text-align: justify;
+}
+
+#pimg{
+  float:left;
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#plink:link{
+  color: blue;
+}
+
+#plink:visited{
+  color: darkcyan;
+}
+
+p{
+ font-family: Verdana, sans serif;
+}
+
+h1, h3, h4{
+  font-family: "Georgia", serif;
+}
+
+.gallery{
+  position: relative;
+  width:auto;
+}
+
+.mySlides{
+  display: none;
+}
+
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px; 
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertxt{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container{
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+#clipArt{
+  float: right;
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+
+img.gallerySize{
+  max-width: 100%;
+  max-height:100%;
+  object-fit: contain;
+} 
+

@@ -1,0 +1,43 @@
+.dateCaption{
+  background-color: rgb(176, 176, 176);
+  color: #04385e;
+  border: 2px solid black;
+  margin: auto;
+  width: 350px;
+  float:right;
+  text-align:center;
+}
+
+.galCaption{
+  background-color: #223843;
+  color: #eff1f3;
+  border: 2px solid black;
+  margin: auto;
+  width: 350px;
+  float:right;
+  text-align:center;
+}
+
+.dateImg{
+  border: 5px solid black;
+  margin-bottom: 100px;
+  padding: 25px 25px;
+  width: 800px;
+}
+
+.galImg{
+  border: 5px solid black;
+  margin-top: 100px;
+  padding: 25px 25px;
+  width: 800px;
+}
+
+#img{
+  width: 400px;
+  height: 400px;
+}
+
+#gal{
+  width: 400px;
+  height: 400px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Darkroom Photography-Gallery</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body class="backColor">
+
+<header>
+  <h1>Gallery</h1>
+
+  <span id="openbtn" onclick="openNav()">&#9776;Menu</span>
+    <div id="navigation" class="navigation">
+      <a class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="history.html">History</a>
+      <a href="development.html">Development Process</a>
+      <a href="photograms.html">Photograms</a>
+      <a href="light.html">Light</a>
+      <a href="portraits.html">Portraits</a>
+      <a href="gallery.html">Gallery</a>
+    </div>
+</header>
+
+
+<div class="gallery">
+  <div class="numbertxt">1</div>
+  <img src="images/chairs.jpg" alt="chairs" class="mySlides">
+
+  <a class= "prev">&#10094</a>
+  <a class= "next">&#10095</a>
+
+  <div class="caption-container">
+    <p id="caption">Adirondack</p>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>
